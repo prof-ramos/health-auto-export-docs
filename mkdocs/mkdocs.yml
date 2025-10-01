@@ -1,0 +1,40 @@
+site_name: Health Auto Export Wiki
+site_description: Documentação completa do Health Auto Export para exportação automatizada de dados do Apple Health
+site_author: Health Auto Export
+site_url: https://health-auto-export-docs.github.io/
+
+theme:
+  name: material
+  language: pt
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+nav:
+  - Início: index.md
+  - Configuração e Deep Linking: configuration.md
+  - Formato JSON da API: api-format.md
+  - Dados Suportados: supported-data.md
+  - Projetos: projects.md
+  - Plano de Tradução: plan-traducao.md
+  - AGENTS: agents.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Lybron/health-auto-export
+    - icon: fontawesome/brands/apple
+      link: https://apps.apple.com/us/app/health-auto-export-json-csv/id1115567069
+
+copyright: Copyright &copy; 2025 Health Auto Export
